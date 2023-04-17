@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './pages/main/main.component';
@@ -32,7 +33,11 @@ import { FooterComponent } from './sharepages/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+      {path: 'main', component: MainComponent},
+      {path: 'try', component: TryComponent}
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

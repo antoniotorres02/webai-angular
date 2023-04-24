@@ -1,0 +1,34 @@
+#main_content {
+  display: flex;
+  background: url("/assets/img/logo_blur.png") no-repeat center center fixed;
+  height: 100vh;
+  grid-gap: 50px;
+  align-items: center;
+  justify-items: center;
+  padding: 50px;
+}
+
+#main_content button {
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  transition: width 0.5s, background-color 0.5s;
+  background-color: #523d44;
+  border: #1f1719 3px solid;
+}
+
+#main_content button:hover {
+  width: 110%;
+  background-color: #1f1719;
+}
+
+#main_content button h1 {
+  font-size: 4em;
+  transition: transform 0.5s, color 0.5s;
+}
+
+#main_content button:hover h1 {
+  font-size: 4em;
+  color: white;
+  transform: scale(1.2);
+}

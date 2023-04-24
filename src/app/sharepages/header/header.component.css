@@ -1,4 +1,4 @@
-#header_content {
+header {
   display: grid;
   grid-template-columns: 100px 1fr 100px 100px;
   grid-template-rows: 1fr;
@@ -7,18 +7,18 @@
   background-color: #1f1719;
 }
 
-#header_content button {
+header button {
   background-color: transparent;
   border: none;
 }
 
-#header_content button img{
+header button img{
   transition: transform 0.5s;
   height: 25px;
 }
 
 
-#header_content button img:hover{
+header button img:hover{
   transform: scale(1.3);
 }
 

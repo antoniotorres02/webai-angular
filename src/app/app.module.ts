@@ -35,7 +35,7 @@ import { FooterComponent } from './sharepages/footer/footer.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: 'main', component: MainComponent},
+      {path: '', component: MainComponent},
       {path: 'try', component: TryComponent}
     ])
   ],

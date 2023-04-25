@@ -1,0 +1,32 @@
+#main_content {
+  display: flex;
+  background: url("/assets/img/logo_blur.png") no-repeat center center fixed;
+  height: 100vh;
+  padding: 50px;
+  padding-top: 100px;
+  gap: 100px;
+}
+
+#main_content button {
+  height: 80%;
+  width: 80%;
+  background-color: #523d44;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+#main_content button h1 {
+  transition: transform 0.5s;
+  font-size: 4em;
+}
+
+
+#main_content button:hover {
+  transform: scale(1.1);
+  background-color: #c4013c;
+}
+
+#main_content button:hover h1{
+  transform: scale(1.5);
+  color: white;
+}
+

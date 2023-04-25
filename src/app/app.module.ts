@@ -36,7 +36,8 @@ import { FooterComponent } from './sharepages/footer/footer.component';
     BrowserModule,
     RouterModule.forRoot([
       {path: '', component: MainComponent},
-      {path: 'try', component: TryComponent}
+      {path: 'try', component: TryComponent},
+      {path: 'game', component: GameComponent}
     ])
   ],
   providers: [],

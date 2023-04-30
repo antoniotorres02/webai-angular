@@ -28,8 +28,4 @@ export class SignInComponent {
       .then(() => this.router.navigate(['/']))
       .catch((error: { message: any }) => alert(error.message));
   }
-
-  redirectToSignUp() {
-    this.router.navigate(['/sign-up']);
-  }
 }

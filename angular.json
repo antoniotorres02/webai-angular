@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "webai:build:production",
+            "firebaseProject": "webai-angular",
+            "firebaseHostingSite": "webai-angular"
+          }
         }
       }
     }
